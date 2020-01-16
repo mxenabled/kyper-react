@@ -6,7 +6,6 @@ import { TokenContext } from './TokenContext'
 
 export const TokenProvider = ({ primaryColors={}, scheme='light', children })  => {
   const [tokens, setTokens] = useState(buildTheme(scheme))
-  console.log('Stay on target')
 
   useEffect(() => {
     if (Object.keys(primaryColors).length) {
@@ -14,7 +13,6 @@ export const TokenProvider = ({ primaryColors={}, scheme='light', children })  =
     } else {
       setTokens(buildTheme(scheme))
     }
-    console.log(scheme)
   }, [primaryColors, scheme])
 
   return (
