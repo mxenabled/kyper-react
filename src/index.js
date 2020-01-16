@@ -1,7 +1,3 @@
-import { TokenContext } from './context/TokenContext'
-import { TokenProvider } from './context/TokenProvider'
+export { TokenContext } from './context/TokenContext'
+export { TokenProvider } from './context/TokenProvider'
 
-export {
-  TokenContext,
-  TokenProvider,
-}
