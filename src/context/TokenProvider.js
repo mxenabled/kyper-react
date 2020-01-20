@@ -1,3 +1,6 @@
+/*
+  KYPER-VERSION:0.0.1
+*/
 import PropTypes from 'prop-types'
 import React, { useEffect, useState } from 'react'
 import { buildTheme } from 'mx-design-tokens'

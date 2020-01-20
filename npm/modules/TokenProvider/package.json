@@ -1,0 +1,12 @@
+{
+  "name": "TokenProvider NAME",
+  "version": "0.0.1",
+  "description": "The Kyper component `TokenProvider IDENTIFIER` exported individually",
+  "license": "MIT",
+  "author": "MX",
+  "repository": "mx-enabled/kyper-react",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

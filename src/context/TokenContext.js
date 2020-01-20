@@ -1,3 +1,6 @@
+/*
+  KYPER-VERSION:0.0.1
+*/
 import React from 'react'
 import { buildTheme } from 'mx-design-tokens'
 

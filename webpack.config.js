@@ -1,11 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    TokenContext: './src/context/TokenContext.js',
+    TokenProvider: './src/context/TokenProvider.js',
+  },
   mode: 'development',
   output: {
-    filename: 'index.js',
-    libraryTarget: 'umd',
+    filename: '[name].js',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
@@ -23,17 +27,7 @@ module.exports = {
   },
   externals: {
     // Don't bundle react or react-dom
-    react: {
-      commonjs: "react",
-      commonjs2: "react",
-      amd: "React",
-      root: "React"
-    },
-    "react-dom": {
-      commonjs: "react-dom",
-      commonjs2: "react-dom",
-      amd: "ReactDOM",
-      root: "ReactDOM"
-    }
+    react: "react",
+    "react-dom": "react-dom"
   }
 }
