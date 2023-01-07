@@ -4,7 +4,7 @@
   "description": "React components following the Kyper design system.",
   "main": "dist/index.js",
   "dependencies": {
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "mx-design-tokens": "^3.0.0"
   },
   "devDependencies": {
